@@ -108,6 +108,32 @@ run the `deactivate_conda_base` alias made above in the `.bashrc` file which run
 deactivate_conda_base
 ```
 
+## Revised / Summary process iteration 1:
+
+1 :
+
+``` bash
+chmod +x deactivate_conda.sh
+```
+
+2 :
+
+``` bash
+deactivate_conda.sh
+```
+
+3 :
+
+``` bash
+source ~/.bashrc
+```
+
+4 :
+
+``` bash
+deactivate_conda_base
+```
+
 ## References
 
 [ChatGPT3.5](https://chat.openai.com/)
