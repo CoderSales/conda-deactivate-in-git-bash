@@ -38,7 +38,7 @@ In `git bash` cli :
 $ chmod +x deactivate_conda.sh
 ```
 
-call the `deactivate_conda.sh` file in the current (`.`) directory
+call the `deactivate_conda.sh` file in the current (`.`) directory :
 
 ``` bash
 $ ./deactivate_conda.sh
