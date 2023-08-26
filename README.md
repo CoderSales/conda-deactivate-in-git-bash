@@ -40,6 +40,23 @@ $ chmod +x deactivate_conda.sh
 
 call the `deactivate_conda.sh` file in the current (`.`) directory :
 
+ChatGPT3.5 recommendation: 
+
+``` text
+Just a quick note,
+when you use the chmod +x command on a script,
+you're making it executable,
+which means you can run it directly without specifying the interpreter
+(e.g., ./script.sh).
+
+So, in your process, you could directly run
+deactivate_conda.sh
+without needing to add the
+./
+before it.
+```
+
+
 ``` bash
 $ ./deactivate_conda.sh
 ```
