@@ -27,7 +27,42 @@ In `deactivate_conda.sh` :
 
 ``` deactivate_conda.sh
 #!/bin/bash
+# conda deactivate
+```
+
+conda deactivate commented out in script above for the following reason:
+
+ChatGPT3.5 Recommendation/Fix:
+
+``` text
+In your deactivate_conda.sh script, you have the following line:
+```
+
+```bash
+
 conda deactivate
+
+This line is interpreted as a command to the conda tool,
+and it's trying to find a command named
+"deactivate"
+within conda,
+which doesn't exist.
+
+This is causing the error message you're seeing.
+
+To fix this issue,
+you should remove the line
+conda deactivate
+from the deactivate_conda.sh script.
+
+Since you're using the
+alias deactivate_conda_base
+to deactivate the base Conda environment,
+you don't need to manually run
+
+conda deactivate
+
+in your script.
 ```
 
 In `git bash` cli :
