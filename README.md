@@ -2,7 +2,7 @@
 
 ## Setup
 
-`conda` and `git bash`:
+`conda` and `git bash`
 
 ## Use Automation instead of typing the command
 
