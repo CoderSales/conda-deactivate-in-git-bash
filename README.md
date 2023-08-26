@@ -6,33 +6,51 @@
 
 ## Use Automation instead of typing the command
 
+Instead of running the following command in git bash :
+
 ``` bash
 conda deactivate
 ```
 
+Use :
+
 ## Automation
+
+In `.bashrc` file :
 
 ``` .bashrc
 alias deactivate_conda="./deactivate_conda.sh"
 alias deactivate_conda_base="conda deactivate"
 ```
 
+In `deactivate_conda.sh` :
+
 ``` deactivate_conda.sh
 #!/bin/bash
 conda deactivate
 ```
 
+In `git bash` cli :
+
+`Mod`ify the `deactivate_conda.sh` shell script to make a `.exe` executable file in the background:
+
 ``` bash
 $ chmod +x deactivate_conda.sh
 ```
+
+call the `deactivate_conda.sh` file in the current (`.`) directory
 
 ``` bash
 $ ./deactivate_conda.sh
 ```
 
+`source` the `.bashrc` file :
+
 ``` bash
 $ source ~/.bashrc
 ```
+
+run the `deactivate_conda_base` alias made above in the `.bashrc` file which runs the command `conda deactivate` automatically :
 
 ``` bash
 deactivate_conda_base
