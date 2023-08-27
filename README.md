@@ -134,6 +134,20 @@ source ~/.bashrc
 deactivate_conda_base
 ```
 
+## Revised / Summary process iteration 2:
+
+1 :
+
+``` bash
+source ~/.bashrc
+```
+
+2 :
+
+``` bash
+deactivate_conda_base
+```
+
 ## References
 
 [ChatGPT3.5](https://chat.openai.com/)
